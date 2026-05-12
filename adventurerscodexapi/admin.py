@@ -1,3 +1,7 @@
+"""Django admin registrations for The Adventurer's Codex models."""
+
 from django.contrib import admin
 
-# Register your models here.
+from adventurerscodexapi.models import Race
+
+admin.site.register(Race)
