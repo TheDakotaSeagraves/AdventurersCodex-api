@@ -1,0 +1,134 @@
+[
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 1,
+    "fields": {
+      "name": "Barbarian",
+      "hit_die": "d12",
+      "primary_ability": "Strength",
+      "saving_throw_proficiencies": "Strength, Constitution",
+      "description": "A fierce warrior of primitive background who can enter a battle rage. Barbarians draw power from a deep wellspring of fury, fueled by their connection to the wilds and their tribes. They favor heavy weapons and light armor, relying on raw physicality and uncanny resilience. In combat, a Barbarian is the wall that stands between their allies and the enemy."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 2,
+    "fields": {
+      "name": "Bard",
+      "hit_die": "d8",
+      "primary_ability": "Charisma",
+      "saving_throw_proficiencies": "Dexterity, Charisma",
+      "description": "An inspiring magician whose power echoes the music of creation. Bards weave magic through song, speech, or performance, drawing on a tradition of lore and improvisation. They are skilled jacks-of-all-trades, equally at home charming a noble, picking a lock, or rallying allies with a well-timed cantrip. Few classes match a Bard's versatility in and out of combat."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 3,
+    "fields": {
+      "name": "Cleric",
+      "hit_die": "d8",
+      "primary_ability": "Wisdom",
+      "saving_throw_proficiencies": "Wisdom, Charisma",
+      "description": "A priestly champion who wields divine magic in service of a higher power. Clerics channel the will of their deity into healing, protection, and righteous wrath. They are pillars of any adventuring party, capable of mending wounds one round and smiting foes the next. A Cleric's faith shapes both their spell list and their place in the world."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 4,
+    "fields": {
+      "name": "Druid",
+      "hit_die": "d8",
+      "primary_ability": "Wisdom",
+      "saving_throw_proficiencies": "Intelligence, Wisdom",
+      "description": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms. Druids commune with the wild, calling on storms, beasts, and growing things to aid them. They walk a path of balance, defending the natural order against those who would despoil it. A Druid is as comfortable in a forest glade as a Wizard is in a library."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 5,
+    "fields": {
+      "name": "Fighter",
+      "hit_die": "d10",
+      "primary_ability": "Strength or Dexterity",
+      "saving_throw_proficiencies": "Strength, Constitution",
+      "description": "A master of martial combat, skilled with a variety of weapons and armor. Fighters are the most versatile combatants in the game, adapting to nearly any battlefield role through training and discipline. From armored knights to nimble duelists to longbow specialists, every Fighter is shaped by the path they choose. When the fighting starts, no class is more reliable."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 6,
+    "fields": {
+      "name": "Monk",
+      "hit_die": "d8",
+      "primary_ability": "Dexterity, Wisdom",
+      "saving_throw_proficiencies": "Strength, Dexterity",
+      "description": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection. Monks channel an inner energy called ki to perform feats beyond ordinary mortal limits. They move with uncanny speed, strike with empty hands, and shrug off blows that would fell heavier warriors. A Monk's discipline is both their weapon and their armor."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 7,
+    "fields": {
+      "name": "Paladin",
+      "hit_die": "d10",
+      "primary_ability": "Strength, Charisma",
+      "saving_throw_proficiencies": "Wisdom, Charisma",
+      "description": "A holy warrior bound to a sacred oath. Paladins fuse martial prowess with divine magic, channeling their convictions into healing touch, smites, and protective auras. Their power comes not from a deity but from the oath itself, which binds them to a cause greater than any single faith. Break the oath, and the magic falters."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 8,
+    "fields": {
+      "name": "Ranger",
+      "hit_die": "d10",
+      "primary_ability": "Dexterity, Wisdom",
+      "saving_throw_proficiencies": "Strength, Dexterity",
+      "description": "A warrior who combats threats on the edges of civilization. Rangers are trackers, hunters, and guides, equally at home in deep wilderness and on the borderlands of settled lands. They mix martial training with a touch of nature magic, often forming bonds with animal companions. A Ranger's chosen enemies and favored terrain shape every encounter."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 9,
+    "fields": {
+      "name": "Rogue",
+      "hit_die": "d8",
+      "primary_ability": "Dexterity",
+      "saving_throw_proficiencies": "Dexterity, Intelligence",
+      "description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies. Rogues are the masters of skills, slipping past locks, traps, and watchful eyes with practiced ease. In combat, they rely on positioning and timing to deliver devastating sneak attacks. Whether thief, spy, or assassin, a Rogue thrives in the spaces other adventurers overlook."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 10,
+    "fields": {
+      "name": "Sorcerer",
+      "hit_die": "d6",
+      "primary_ability": "Charisma",
+      "saving_throw_proficiencies": "Constitution, Charisma",
+      "description": "A spellcaster who draws on inherent magic from a gift or bloodline. Sorcerers don't study spellbooks or pray for power; magic is simply part of who they are. They wield it with raw force and instinctive flair, often bending and shaping their spells in ways no Wizard could. A Sorcerer's origin, be it draconic, wild, or stranger still, defines the shape of their magic."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 11,
+    "fields": {
+      "name": "Warlock",
+      "hit_die": "d8",
+      "primary_ability": "Charisma",
+      "saving_throw_proficiencies": "Wisdom, Charisma",
+      "description": "A wielder of magic that is derived from a bargain with an extraplanar entity. Warlocks trade service or loyalty for arcane power, and the nature of their patron, archfey, fiend, or eldritch horror, colors every spell they cast. They favor a smaller pool of potent spells, refreshed quickly, alongside signature invocations. Every Warlock is a story of a deal made and the price still being paid."
+    }
+  },
+  {
+    "model": "adventurerscodexapi.dndclass",
+    "pk": 12,
+    "fields": {
+      "name": "Wizard",
+      "hit_die": "d6",
+      "primary_ability": "Intelligence",
+      "saving_throw_proficiencies": "Intelligence, Wisdom",
+      "description": "A scholarly magic-user capable of manipulating the structures of reality. Wizards approach magic as a science, recording spells in painstakingly maintained spellbooks and preparing a tailored selection each day. Their spell list is the broadest in the game, spanning every school from evocation to divination to necromancy. With time and study, a Wizard can become the most flexible spellcaster at the table."
+    }
+  }
+]
