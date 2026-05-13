@@ -2,6 +2,7 @@
 
 from django.contrib import admin
 
-from adventurerscodexapi.models import Race
+from .models import DndClass, Race
 
+admin.site.register(DndClass)
 admin.site.register(Race)
