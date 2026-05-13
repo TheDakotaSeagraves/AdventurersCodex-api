@@ -7,11 +7,22 @@ from adventurerscodexapi.models import Race
 
 
 class RaceSerializer(serializers.ModelSerializer):
-    """Serializes Race instances. Exposes all four model fields."""
+    """Serializes Race instances for read-only display."""
 
     class Meta:
         model = Race
-        fields = ["id", "name", "description", "is_homebrew", "created_by"]
+        fields = [
+            "id",
+            "name",
+            "description",
+            "size",
+            "speed",
+            "ability_score_increases",
+            "traits",
+            "languages",
+            "is_homebrew",
+            "created_by",
+        ]
 
 
 class RaceViewSet(viewsets.ReadOnlyModelViewSet):
