@@ -7,4 +7,5 @@ python3 manage.py makemigrations adventurerscodexapi
 python3 manage.py migrate adventurerscodexapi
 python3 manage.py loaddata users
 python3 manage.py loaddata tokens
+python3 manage.py loaddata races
 

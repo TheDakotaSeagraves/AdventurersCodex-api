@@ -1,0 +1,152 @@
+[
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 1,
+    "fields": {
+      "name": "Human",
+      "description": "Humans are the most adaptable and ambitious people among the common races, found in every land and represented in every culture.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+1 to all ability scores",
+      "traits": "Versatile, adaptable, and ambitious. Humans have no innate magical abilities but make up for it with skill and determination.",
+      "languages": "Common, plus one extra language of your choice",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 2,
+    "fields": {
+      "name": "High Elf",
+      "description": "High elves have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves: cold and reserved scholars, and adventurous wanderers in search of knowledge or magical power.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Dexterity, +1 Intelligence",
+      "traits": "Darkvision 60 ft., Keen Senses (proficiency in Perception), Fey Ancestry (advantage against being charmed, immune to magical sleep), Trance (4 hours of meditation replaces sleep), Elf Weapon Training (longswords, shortswords, shortbows, longbows), Cantrip (one wizard cantrip of your choice; Intelligence is the spellcasting ability), Extra Language",
+      "languages": "Common, Elvish, plus one extra language of your choice",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 3,
+    "fields": {
+      "name": "Wood Elf",
+      "description": "Wood elves are quick, perceptive, and at home in the wilderness. They are folk of the deep forests, with senses honed by the hunt and reflexes sharpened by the trail.",
+      "size": "Medium",
+      "speed": "35 ft.",
+      "ability_score_increases": "+2 Dexterity, +1 Wisdom",
+      "traits": "Darkvision 60 ft., Keen Senses (proficiency in Perception), Fey Ancestry (advantage against being charmed, immune to magical sleep), Trance (4 hours of meditation replaces sleep), Elf Weapon Training (longswords, shortswords, shortbows, longbows), Fleet of Foot (base walking speed increases to 35 ft.), Mask of the Wild (can attempt to hide when only lightly obscured by foliage, weather, or natural phenomena)",
+      "languages": "Common, Elvish",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 4,
+    "fields": {
+      "name": "Hill Dwarf",
+      "description": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
+      "size": "Medium",
+      "speed": "25 ft.",
+      "ability_score_increases": "+2 Constitution, +1 Wisdom",
+      "traits": "Darkvision 60 ft., Dwarven Resilience (advantage against poison, resistance to poison damage), Dwarven Combat Training (battleaxes, handaxes, light hammers, warhammers), Stonecunning (double proficiency on History checks related to stonework), Speed is not reduced by wearing heavy armor, Dwarven Toughness (HP maximum increases by 1, and increases by 1 every level)",
+      "languages": "Common, Dwarvish",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 5,
+    "fields": {
+      "name": "Mountain Dwarf",
+      "description": "Mountain dwarves are strong and hardy, accustomed to a difficult life in rugged terrain. They tend to be tall and stocky compared to other dwarves.",
+      "size": "Medium",
+      "speed": "25 ft.",
+      "ability_score_increases": "+2 Constitution, +2 Strength",
+      "traits": "Darkvision 60 ft., Dwarven Resilience (advantage against poison, resistance to poison damage), Dwarven Combat Training (battleaxes, handaxes, light hammers, warhammers), Stonecunning (double proficiency on History checks related to stonework), Speed is not reduced by wearing heavy armor, Dwarven Armor Training (proficiency with light and medium armor)",
+      "languages": "Common, Dwarvish",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 6,
+    "fields": {
+      "name": "Lightfoot Halfling",
+      "description": "Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. They are stealthy and friendly, with an easy adaptability to new surroundings.",
+      "size": "Small",
+      "speed": "25 ft.",
+      "ability_score_increases": "+2 Dexterity, +1 Charisma",
+      "traits": "Lucky (reroll natural 1s on attack rolls, ability checks, and saving throws), Brave (advantage on saving throws against being frightened), Halfling Nimbleness (can move through the space of any creature one size larger), Naturally Stealthy (can attempt to hide even when obscured only by a creature one size larger)",
+      "languages": "Common, Halfling",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 7,
+    "fields": {
+      "name": "Stout Halfling",
+      "description": "Stouts are hardier than other halflings and have some resistance to poison. Some say stouts have dwarven blood in their ancestry.",
+      "size": "Small",
+      "speed": "25 ft.",
+      "ability_score_increases": "+2 Dexterity, +1 Constitution",
+      "traits": "Lucky (reroll natural 1s on attack rolls, ability checks, and saving throws), Brave (advantage on saving throws against being frightened), Halfling Nimbleness (can move through the space of any creature one size larger), Stout Resilience (advantage on saving throws against poison, resistance to poison damage)",
+      "languages": "Common, Halfling",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 8,
+    "fields": {
+      "name": "Half-Elf",
+      "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Charisma, plus +1 to two other ability scores of your choice",
+      "traits": "Darkvision 60 ft., Fey Ancestry (advantage against being charmed, immune to magical sleep), Skill Versatility (proficiency in two skills of your choice)",
+      "languages": "Common, Elvish, plus one extra language of your choice",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 9,
+    "fields": {
+      "name": "Tiefling",
+      "description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. Their infernal heritage is undeniable, but their character is their own.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Charisma, +1 Intelligence",
+      "traits": "Darkvision 60 ft., Hellish Resistance (resistance to fire damage), Infernal Legacy (know the Thaumaturgy cantrip; at 3rd level, cast Hellish Rebuke once per day as a 2nd-level spell; at 5th level, cast Darkness once per day; Charisma is the spellcasting ability for these spells)",
+      "languages": "Common, Infernal",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 10,
+    "fields": {
+      "name": "Dragonborn",
+      "description": "Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Dragonborn have a strong sense of honor, loyalty, and clan.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Strength, +1 Charisma",
+      "traits": "Draconic Ancestry (choose one: Black, Blue, Brass, Bronze, Copper, Gold, Green, Red, Silver, or White; this determines breath weapon and damage resistance), Breath Weapon (use your action to exhale destructive energy; shape, damage type, and save DC determined by ancestry; 2d6 damage at 1st level, scaling up with character level), Damage Resistance (resistance to the damage type associated with your draconic ancestry)",
+      "languages": "Common, Draconic",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  }
+]
