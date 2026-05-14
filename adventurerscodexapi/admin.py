@@ -2,7 +2,8 @@
 
 from django.contrib import admin
 
-from .models import DndClass, Race
+from .models import Character, DndClass, Race
 
+admin.site.register(Character)
 admin.site.register(DndClass)
 admin.site.register(Race)

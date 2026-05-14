@@ -3,6 +3,7 @@ from django.urls import include, path
 from rest_framework import routers
 
 from adventurerscodexapi.views import (
+    CharacterViewSet,
     DndClassViewSet,
     RaceViewSet,
     get_current_user,
@@ -11,6 +12,7 @@ from adventurerscodexapi.views import (
 )
 
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r"characters", CharacterViewSet, basename="character")
 router.register(r"dnd-classes", DndClassViewSet, basename="dnd-class")
 router.register(r"races", RaceViewSet, basename="race")
 
