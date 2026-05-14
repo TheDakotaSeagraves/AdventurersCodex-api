@@ -46,6 +46,11 @@ class CharacterSerializer(serializers.ModelSerializer):
             "created_at",
             "updated_at",
         ]
+        extra_kwargs = {
+            "background": {"required": False, "allow_blank": True},
+            "alignment": {"required": False, "allow_blank": True},
+            "backstory": {"required": False, "allow_blank": True},
+        }
 
 
 class CharacterViewSet(viewsets.ModelViewSet):
