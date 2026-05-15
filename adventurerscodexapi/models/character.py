@@ -2,7 +2,6 @@ from django.contrib.auth.models import User
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
-from .dnd_class import DndClass
 from .race import Race
 
 
@@ -12,13 +11,6 @@ class Character(models.Model):
     name = models.CharField(max_length=200)
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="characters")
     race = models.ForeignKey(Race, on_delete=models.PROTECT, related_name="characters")
-    dnd_class = models.ForeignKey(
-        DndClass, on_delete=models.PROTECT, related_name="characters"
-    )
-    level = models.IntegerField(
-        default=1,
-        validators=[MinValueValidator(1), MaxValueValidator(20)],
-    )
     strength = models.IntegerField(
         default=10,
         validators=[MinValueValidator(3), MaxValueValidator(20)],
