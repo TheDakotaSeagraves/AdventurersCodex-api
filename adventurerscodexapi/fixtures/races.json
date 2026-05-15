@@ -148,5 +148,110 @@
       "is_homebrew": false,
       "created_by": null
     }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 11,
+    "fields": {
+      "name": "Aasimar",
+      "description": "Aasimar bear within their souls the light of the heavens. They are descended from humans with a touch of the power of Mount Celestia, the divine realm of many lawful good deities. Their bond to the holy is no choice on their part, but a divine impulse stamped into their very being.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Charisma, +1 Wisdom",
+      "traits": "Darkvision 60 ft., Celestial Resistance (resistance to necrotic and radiant damage), Healing Hands (touch a creature as an action and heal hit points equal to your level once per long rest), Light Bearer (know the Light cantrip; Charisma is the spellcasting ability)",
+      "languages": "Common, Celestial",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 12,
+    "fields": {
+      "name": "Goliath",
+      "description": "At the highest mountain peaks, far above the slopes where trees grow and where the air is thin and the frigid winds howl, dwell the reclusive goliaths. Few folk can claim to have seen a goliath, and fewer still can claim friendship with one.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Strength, +1 Constitution",
+      "traits": "Natural Athlete (proficiency in the Athletics skill), Stone's Endurance (when taking damage, use your reaction to roll a d12 and reduce the damage by the roll plus your Constitution modifier, once per short or long rest), Powerful Build (count as one size larger when determining carrying capacity and weight you can push, drag, or lift), Mountain Born (acclimated to high altitude and cold climates)",
+      "languages": "Common, Giant",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 13,
+    "fields": {
+      "name": "Tabaxi",
+      "description": "Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by curiosity to collect interesting artifacts, gather tales and stories, and lay eyes on all the world's wonders.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Dexterity, +1 Charisma",
+      "traits": "Darkvision 60 ft., Feline Agility (when you move on your turn in combat, you can double your speed until the end of the turn; can't use this trait again until you move 0 feet on one of your turns), Cat's Claws (climbing speed of 20 ft., and claws are natural weapons dealing 1d4 slashing damage), Cat's Talent (proficiency in the Perception and Stealth skills)",
+      "languages": "Common, plus one extra language of your choice",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 14,
+    "fields": {
+      "name": "Fire Genasi",
+      "description": "With ash-colored skin, hair like living flame, and eyes that smolder like embers, fire genasi carry the spark of their elemental heritage in every gesture. They are passionate, quick-tempered, and as warm as the element that birthed them.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Constitution, +1 Intelligence",
+      "traits": "Darkvision 60 ft., Fire Resistance (resistance to fire damage), Reach to the Blaze (know the Produce Flame cantrip; at 3rd level, cast Burning Hands once per day as a 1st-level spell; Constitution is the spellcasting ability for these spells)",
+      "languages": "Common, Primordial",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 15,
+    "fields": {
+      "name": "Firbolg",
+      "description": "Firbolgs are forest guardians, gentle giants who live in seclusion among the deep woods. They prefer to avoid conflict, using their innate magic to hide and protect their forest homes from those who would do them harm.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Wisdom, +1 Strength",
+      "traits": "Firbolg Magic (cast Detect Magic and Disguise Self once per short or long rest each; Wisdom is the spellcasting ability), Hidden Step (turn invisible as a bonus action until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw; once per short or long rest), Powerful Build (count as one size larger when determining carrying capacity and weight you can push, drag, or lift), Speech of Beast and Leaf (limited communication with beasts and plants)",
+      "languages": "Common, Elvish, Giant",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 16,
+    "fields": {
+      "name": "Warforged",
+      "description": "Built as weapons of war to fight in the Last War, warforged are now seeking their own place in the world. They are sentient constructs of wood, metal, and stone, animated by living magic.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Constitution, +1 to one other ability score of your choice",
+      "traits": "Constructed Resilience (advantage on saving throws against being poisoned and resistance to poison damage; immunity to disease; don't need to eat, drink, or breathe; don't need to sleep, but can finish a long rest by remaining inactive for 6 hours), Sentry's Rest (during a long rest, must remain in an inactive, motionless state but remain conscious), Integrated Protection (+1 bonus to AC; can don and doff armor only during a rest), Specialized Design (proficiency in one skill and one tool of your choice)",
+      "languages": "Common, plus one extra language of your choice",
+      "is_homebrew": false,
+      "created_by": null
+    }
+  },
+  {
+    "model": "adventurerscodexapi.race",
+    "pk": 17,
+    "fields": {
+      "name": "Orc",
+      "description": "Orcs are a proud and resilient people, shaped by a hard life and fierce traditions. Once considered savage by other races, orcs in the modern era reclaim their heritage as warriors, hunters, and protectors of their kin.",
+      "size": "Medium",
+      "speed": "30 ft.",
+      "ability_score_increases": "+2 Strength, +1 Constitution",
+      "traits": "Darkvision 60 ft., Aggressive (as a bonus action, move up to your speed toward a hostile creature you can see), Powerful Build (count as one size larger when determining carrying capacity and weight you can push, drag, or lift), Primal Intuition (proficiency in two skills of your choice from Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival)",
+      "languages": "Common, Orc",
+      "is_homebrew": false,
+      "created_by": null
+    }
   }
 ]
