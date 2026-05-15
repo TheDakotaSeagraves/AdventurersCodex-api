@@ -89,6 +89,25 @@ class CharacterSerializer(serializers.ModelSerializer):
 
         return instance
 
+    def validate_class_levels(self, value):
+        """Enforce non-empty, total level <= 20, and no duplicate classes."""
+        if not value:
+            raise serializers.ValidationError("At least one class entry is required.")
+
+        total_level = sum(entry["level"] for entry in value)
+        if total_level > 20:
+            raise serializers.ValidationError(
+                f"Total level across all classes must not exceed 20 (got {total_level})."
+            )
+
+        class_ids = [entry["dnd_class"].id for entry in value]
+        if len(class_ids) != len(set(class_ids)):
+            raise serializers.ValidationError(
+                "Each class may only appear once. Edit an existing entry to increase its level."
+            )
+
+        return value
+
 
 class CharacterViewSet(viewsets.ModelViewSet):
     """CRUD endpoint scoped to the requesting user's characters."""
