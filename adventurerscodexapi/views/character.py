@@ -73,6 +73,22 @@ class CharacterSerializer(serializers.ModelSerializer):
             CharacterClassLevel.objects.create(character=character, **entry)
         return character
 
+    @transaction.atomic
+    def update(self, instance, validated_data):
+        """Update a Character, replacing all class_levels rows if provided."""
+        class_levels_data = validated_data.pop("class_levels", None)
+
+        for attr, value in validated_data.items():
+            setattr(instance, attr, value)
+        instance.save()
+
+        if class_levels_data is not None:
+            instance.class_levels.all().delete()
+            for entry in class_levels_data:
+                CharacterClassLevel.objects.create(character=instance, **entry)
+
+        return instance
+
 
 class CharacterViewSet(viewsets.ModelViewSet):
     """CRUD endpoint scoped to the requesting user's characters."""
