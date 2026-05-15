@@ -1,3 +1,4 @@
+from django.db import transaction
 from rest_framework import serializers, viewsets
 from rest_framework.permissions import IsAuthenticated
 
@@ -62,6 +63,15 @@ class CharacterSerializer(serializers.ModelSerializer):
             "alignment": {"required": False, "allow_blank": True},
             "backstory": {"required": False, "allow_blank": True},
         }
+
+    @transaction.atomic
+    def create(self, validated_data):
+        """Create a Character and its CharacterClassLevel rows in one transaction."""
+        class_levels_data = validated_data.pop("class_levels")
+        character = Character.objects.create(**validated_data)
+        for entry in class_levels_data:
+            CharacterClassLevel.objects.create(character=character, **entry)
+        return character
 
 
 class CharacterViewSet(viewsets.ModelViewSet):
