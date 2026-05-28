@@ -8,6 +8,7 @@ from adventurerscodexapi.views import (
     RaceViewSet,
     get_current_user,
     login_user,
+    profile,
     register_user,
 )
 
@@ -22,4 +23,5 @@ urlpatterns = [
     path("register", register_user),
     path("login", login_user),
     path("current_user", get_current_user),
+    path("profile", profile),
 ]
